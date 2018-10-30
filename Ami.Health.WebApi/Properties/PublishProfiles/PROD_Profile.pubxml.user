@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArwpB9uTCE0+SQtVDGdGLsAAAAAACAAAAAAAQZgAAAAEAACAAAADSqhsFma2IJAjcSwKDi2P0z+KV7ZcRFpXkxoxqUoGzWgAAAAAOgAAAAAIAACAAAAAZSAVTVup6wWKXTVWPIlH6Knlzdm541MSTkur6zBeQlCAAAABlQ+TPVPDaGYTNvTNCALnl3beTLGzgqXIhizlXKOqCdEAAAAAAr0x+BCsknCJuF3EikPYyLdc8VPUqvEl/hkgsLSv93p5oE+CJkWcQv95L24O7UIn3A2YP0DHUr/6naSSW8dPH</EncryptedPassword>
+    <_PublishTargetUrl>ftp://172.20.188.201</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Ami.Health.Core.dll">
+      <publishTime>07/24/2018 14:18:16</publishTime>
+    </File>
+    <File Include="Ami.Health.Core.pdb">
+      <publishTime>07/24/2018 14:18:16</publishTime>
+    </File>
+    <File Include="Ami.Health.WebApi.deps.json">
+      <publishTime>07/24/2018 14:19:10</publishTime>
+    </File>
+    <File Include="Ami.Health.WebApi.dll">
+      <publishTime>07/24/2018 14:19:05</publishTime>
+    </File>
+    <File Include="Ami.Health.WebApi.pdb">
+      <publishTime>07/24/2018 14:19:05</publishTime>
+    </File>
+    <File Include="Ami.Health.WebApi.PrecompiledViews.dll">
+      <publishTime>07/24/2018 14:19:10</publishTime>
+    </File>
+    <File Include="Ami.Health.WebApi.PrecompiledViews.pdb">
+      <publishTime>07/24/2018 14:19:10</publishTime>
+    </File>
+    <File Include="Ami.Health.WebApi.runtimeconfig.json">
+      <publishTime>07/24/2018 14:19:10</publishTime>
+    </File>
+    <File Include="appsettings.Development.json">
+      <publishTime>02/01/2018 11:08:16</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>07/24/2018 14:17:43</publishTime>
+    </File>
+    <File Include="appsettings.production.json">
+      <publishTime>07/24/2018 14:19:10</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>03/08/2018 09:25:23</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>07/12/2018 14:22:46</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>07/12/2018 14:23:00</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>03/08/2018 09:25:23</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>03/08/2018 09:25:23</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>03/08/2018 09:25:23</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>03/08/2018 09:25:23</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>03/08/2018 09:25:23</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>03/08/2018 09:25:23</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>03/08/2018 09:25:23</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>07/12/2018 14:23:08</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>07/12/2018 14:22:50</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>07/12/2018 14:22:51</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>07/12/2018 14:22:57</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>07/12/2018 14:22:57</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>07/12/2018 14:22:57</publishTime>
+    </File>
+    <File Include="System.Net.Http.Formatting.dll">
+      <publishTime>12/07/2017 04:12:26</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>07/24/2018 14:19:10</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MainDbContext">
+      <Value>Data Source=172.20.189.200; Initial Catalog=AMI_RCU_DB; User Id=sa; Password=Ami123!@#</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
